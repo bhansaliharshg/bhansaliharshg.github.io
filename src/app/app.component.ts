@@ -11,6 +11,7 @@ export class AppComponent implements OnInit {
   constructor(private router: Router){}
 
   ngOnInit(): void {
+    console.log(window.performance.getEntriesByType("navigation")[0].toJSON()['type'])
     if (window.performance.getEntriesByType("navigation")[0].toJSON()['type'] == 'reload') {
       this.router.navigateByUrl(window.origin);
     }
