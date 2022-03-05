@@ -1,0 +1,26 @@
+.name {
+    font-size: 25px;
+}
+.title {
+    font-size: 20px;
+}
+
+li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
