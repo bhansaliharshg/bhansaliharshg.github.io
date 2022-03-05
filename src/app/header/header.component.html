@@ -5,13 +5,13 @@
     <div class="col-sm-7">
         <ul class="nav justify-content-end">
             <li class="nav-item">
-                <a class="nav-link button" [ngClass]="{'active': aboutMeActive}" routerLink="about-me" (click)="changeActiveTab('about-me')">ABOUT ME</a>
+                <a class="nav-link button" [ngClass]="{'active': aboutMeActive}" routerLink="info/about-me" (click)="changeActiveTab('about-me')">ABOUT ME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link button" [ngClass]="{'active': resumeActive}" routerLink="resume" (click)="changeActiveTab('resume')">RESUME</a>
+                <a class="nav-link button" [ngClass]="{'active': resumeActive}" routerLink="info/resume" (click)="changeActiveTab('resume')">RESUME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link button" [ngClass]="{'active': projectsActive}" routerLink="projects" (click)="changeActiveTab('projects')">PROJECTS</a>
+                <a class="nav-link button" [ngClass]="{'active': projectsActive}" routerLink="info/projects" (click)="changeActiveTab('projects')">PROJECTS</a>
             </li>
         </ul>
     </div>

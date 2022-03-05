@@ -5,11 +5,11 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ResumeComponent } from './resume/resume.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'about-me', pathMatch: 'full'},
-  {path: 'about-me', component: AboutMeComponent},
-  {path: 'resume', component: ResumeComponent},
-  {path: 'projects', component: ProjectsComponent},
-  {path: '**', redirectTo: 'about-me', pathMatch: 'full'},
+  {path: '', redirectTo: 'info/about-me', pathMatch: 'full'},
+  {path: 'info/about-me', component: AboutMeComponent},
+  {path: 'info/resume', component: ResumeComponent},
+  {path: 'info/projects', component: ProjectsComponent},
+  {path: '**', redirectTo: 'info/about-me', pathMatch: 'full'},
 ];
 
 @NgModule({
