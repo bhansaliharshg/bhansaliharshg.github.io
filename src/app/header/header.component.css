@@ -19,7 +19,8 @@ a {
 
 .active {
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.1);
-    border: 1px solid black;
+    background-color: #365899;;
+    border: 1px solid white;
     border-radius: 0.25rem;
+    color: white;
 }
