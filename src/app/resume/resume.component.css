@@ -4,3 +4,33 @@
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+.eTitle {
+    margin-left: 0.5rem;
+}
+
+.eSub {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.button {
+    padding-left: 7px;
+    padding-right: 7px;
+    text-decoration: none;
+    color: #365899;
+    border: 1px solid #365899;
+    border-radius: 0.25rem;
+    float: right;
+}
+
+.button:hover {
+    background-color: #365899;;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    color: white;
+}
+
+.heading {
+    margin-left: 3rem;
+}
