@@ -12,6 +12,7 @@ export class ResumeComponent implements OnInit {
   aspire = 'Aspire Software Solutions'
   ahmedabad = 'Ahmedabad, Gujarat, India'
   cosywo = 'Cosywo Engineering Company'
+  resumeLink = 'https://drive.google.com/file/d/1voqdspJPqXJpJBPEjbJbONKkQzBcjgZ5/view?usp=sharing';
   constructor() { }
 
   ngOnInit(): void {
