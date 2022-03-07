@@ -13,7 +13,9 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-
+    this.aboutMeActive = true;
+    this.resumeActive = false;
+    this.projectsActive = false;
   }
 
   changeActiveTab(tabName: String) {
