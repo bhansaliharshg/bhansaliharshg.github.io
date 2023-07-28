@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-about-me',
-  templateUrl: './about-me.component.html',
-  styleUrls: ['./about-me.component.css']
+  selector: 'app-skill-summary',
+  templateUrl: './skill-summary.component.html',
+  styleUrls: ['./skill-summary.component.css']
 })
-export class AboutMeComponent implements OnInit {
+export class SkillSummaryComponent implements OnInit {
 
   constructor() { }
 

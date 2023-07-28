@@ -12,4 +12,9 @@ export class ProjectsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  scroll(id: string) {
+    let el = document.getElementById(id);
+    el?.scrollIntoView({behavior: 'smooth'})
+  }
+
 }

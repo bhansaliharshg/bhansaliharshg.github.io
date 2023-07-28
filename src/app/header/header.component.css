@@ -1,5 +1,5 @@
 .name {
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 1rem;
 }
 .title {
@@ -25,4 +25,23 @@ a {
     border: 1px solid white;
     border-radius: 0.25rem;
     color: white;
+}
+
+.button {
+    padding-left: 7px;
+    padding-right: 7px;
+    text-decoration: none;
+    color: #365899;
+    border: 1px solid #365899;
+    border-radius: 0.25rem;
+    float: right;
+    margin-right: 0.4rem;
+}
+
+.profilePic {
+    width: 150px;
+    height: 150px;
+    object-position: 50% 30%;
+    margin-left: 1.2rem;
+    border-radius: 50%;
 }

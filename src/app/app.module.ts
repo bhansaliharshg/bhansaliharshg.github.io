@@ -9,6 +9,11 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ResumeComponent } from './resume/resume.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { MainPageComponent } from './main-page/main-page.component';
+import { EducationComponent } from './education/education.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { SkillSummaryComponent } from './skill-summary/skill-summary.component';
+import { LeadershipComponent } from './leadership/leadership.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     HeaderComponent,
     AboutMeComponent,
     ProjectsComponent,
-    ResumeComponent
+    ResumeComponent,
+    MainPageComponent,
+    EducationComponent,
+    ExperienceComponent,
+    SkillSummaryComponent,
+    LeadershipComponent
   ],
   imports: [
     BrowserModule,

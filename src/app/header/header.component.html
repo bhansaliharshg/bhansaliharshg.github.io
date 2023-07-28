@@ -1,25 +1,59 @@
 <div class="row">
-    <div class="col-sm-5">
+    <div class="col-sm-2">
+        <img src="assets/images/WA_HB_Photo.jpeg" class="profilePic" alt="ProfilePic">
+    </div>
+    <div class="col-sm-5 slidelow">
         <div class="row">
-            <span class="name"><b>Harsh Bhansali</b></span>
+            <span class="name"><b>Harsh Gaurangbhai Bhansali</b>
+                <a href="https://www.linkedin.com/in/harsh-bhansali/" target="_blank" class="linkedin">
+                    <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+                </a>
+            </span>
         </div>
         <div class="row">
-            <span class="title">Graduate Student at Rochester Institute of Technology</span>
+            <span class="title">Full Stack Developer</span>
+        </div>
+        <div class="row">
+            <span class="title"><i class="fa fa-envelope" style="font-size:24px"></i>:<a href="mailto:hgbhansali96@gmail.com" target="_blank"><u>hgbhansali96@gmail.com</u></a></span>
+        </div>
+        <div class="row">
+            <span class="title"><i class="fa fa-phone" style="font-size:24px"></i>: +1-(781)-778-8604</span>
+        </div>
+        <div class="row">
+            <span class="title"><i class="fa fa-github" style="font-size:24px"></i>:<a href="https://github.com/bhansaliharshg" target="_blank"><u>bhansaliharshg</u></a></span>
         </div>
     </div>
-    <div class="col-sm-7">
-        <ul class="nav justify-content-end">
+    <div class="col-sm-5 slidelow justify-content" style="margin-top: 3.5rem;">
+        <a class="button" target="_blank" href="{{resumeLink}}" >Resume <i class="fa fa-download"></i></a>
+    </div>
+</div>
+<hr style="height: 2px; border-width: thick;">
+<div class="row">
+    <div class="col-sm-12 slidelow">
+        <ul class="nav justify-content">
             <li class="nav-item">
-                <a class="nav-link button" [ngClass]="{'active': aboutMeActive}" routerLink="info/about-me"
-                    (click)="changeActiveTab('about-me')">ABOUT ME</a>
+                <a class="nav-link" routerLink="info/about-me"
+                    (click)="scroll('aboutMe')">ABOUT ME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link button" [ngClass]="{'active': resumeActive}" routerLink="info/resume"
-                    (click)="changeActiveTab('resume')">RESUME</a>
+                <a class="nav-link" routerLink="info/education"
+                    (click)="scroll('education')">EDUCATION</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link button" [ngClass]="{'active': projectsActive}" routerLink="info/projects"
-                    (click)="changeActiveTab('projects')">PROJECTS</a>
+                <a class="nav-link" routerLink="info/skills"
+                    (click)="scroll('skills')">SKILL SUMMARY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="info/experience"
+                    (click)="scroll('experience')">EXPERIENCE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="info/projects"
+                    (click)="scroll('projects')">ACADEMIC PROJECTS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="info/projects"
+                    (click)="scroll('leadership')">LEADERSHIP AND ACHIEVEMENTS</a>
             </li>
         </ul>
     </div>
